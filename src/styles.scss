@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.container {
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+app-header, app-footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+app-main, app-sidebar {
+  height: 60%;
+  margin: 2%
+}
+
+
+app-navigation {
+  height: 10%;
+  margin: 0;
+}
